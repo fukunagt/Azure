@@ -38,7 +38,7 @@ S: Volume for Disk Resource
    PS> $datadiskconfig = New-AzDiskConfig -Location 'westus' -DiskSizeGB 1024 -AccountType UltraSSD_LRS -CreateOption Empty -DiskIOPSReadWrite 2000 -DiskMBpsReadWrite 200 -DiskIOPSReadOnly 100 -DiskMBpsReadOnly 1 -MaxSharesCount 2
    PS> New-AzDisk -ResourceGroupName 'westus' -DiskName 'mySharedDisk' -Disk $datadiskconfig
    ```
-1. Create VMs on the same Resource Group.
+1. Create VMs using Azure Portal.
    - VM Size: Standard D2s v3
    - Check **Yes** for **Enable Ultra Disk compatibility**.
    - Add the disk that you have created to **Data disks**.
