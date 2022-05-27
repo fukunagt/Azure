@@ -1,4 +1,8 @@
 # Azure
 
-## HA Cluster on Azure
-- Refer to [HAClusterOnAzure](HAClusterOnAzure.md).
+## Clustering with EXPRESSCLUSTER on Azure
+- [How to create a cluster with EXPRESSCLUSTER](doc/HAClusterOnAzure.md)
+
+<!--
+## Enable Azure Disk Encryption
+-->
